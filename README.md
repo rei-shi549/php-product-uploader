@@ -1,2 +1,17 @@
-# php-product-uploader
-product information &amp; .jpg image upload and show list with PHP and JavaScript
+# 商品登録＆一覧表示アプリ（XML＋画像アップロード）
+
+画像付きの商品データを登録・一覧表示できる簡易アプリケーションです。  
+フォームから商品名・価格・画像を入力し、AJAX経由でPHPに送信。  
+商品情報はXMLファイルに保存され、登録された商品は一覧ページに表示されます。
+
+## 主な機能
+- .jpg画像対応のドラッグ＆ドロップ式ファイルアップロード
+- 入力チェック（空欄・拡張子判定）
+- 画像プレビュー機能付きフォーム
+- XML形式での商品データ保存
+- 登録済み商品一覧の画像付き表示（価格整形付き）
+
+## 使用技術
+- HTML / CSS
+- JavaScript（jQuery）
+- PHP（ファイル操作 / XML）
